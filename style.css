@@ -1,4 +1,4 @@
-body {
+body{
     font-family: helvetica;
     font-size: 22px;
     color: seashell;
@@ -7,3 +7,14 @@ body {
     text-align: center;
 }
 
+.nav{
+    display: inline-flex;
+}
+
+.mission{
+
+    
+}
+
+.locations{
+}
