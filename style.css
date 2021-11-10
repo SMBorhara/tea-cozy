@@ -3,18 +3,84 @@ body{
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
     text-align: center;
 }
 
+/* Navigation */
+
 .nav{
-    display: inline-flex;
+    display: flex;  
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    position: fixed;
 }
 
-.mission{
+.nav h3{
+    text-decoration: underline;  
+    padding: 25px;  
+}
 
+#teacozy{
+    height: 50px;
+    padding-left: 10px;
+}
+
+#mission{
+    margin-left: 1200px;
+}
+
+/*Our Mission*/
+
+.mission{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#missionimg{
+    height: 700px;
+    width: 1200px; 
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.ourmission{
+    background-color: black;
     
 }
 
+
+
+/*Tea images */
+
+.teaimg {
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+
+
+
+
+
+
+/*Locations*/
+
 .locations{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#coffeelocate{
+   padding-top: 1100px;
+    
+    
+}
+
+#downtown{
+    margin-right: 1000px;
+
 }
